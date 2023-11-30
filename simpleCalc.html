@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Calculator</title>
+    <style>
+        #num1-el,#num2-el{
+            border: 2px solid black;
+            padding: 5px;
+            margin: 40px;
+        }
+        button{
+            margin: 20px 0px 0px 20px;
+        }
+        #sum-el{
+            border: 2px solid red;
+            padding: 5px;
+            margin: 77px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <span id="num1-el"></span>
+    <span id="num2-el"></span>
+    <br>
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="div()">divide</button>
+    <br>
+    <span id="sum-el"></span>
+    <script src="./simpleCalc.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#box{
+    background-color: rgb(49, 154, 247);
+    color: white;
+    margin: 100px auto;
+    display: flex;
+    width: 35%;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 10vh;
+}

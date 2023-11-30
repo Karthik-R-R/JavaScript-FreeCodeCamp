@@ -1,0 +1,29 @@
+h1{
+    color: goldenrod;
+}
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url('./img/poker-table-background-green-color_47243-1068.avif');
+/* background-repeat: no-repeat; */
+/* background-size: center/cover; */
+text-align: center;
+color: white;
+}
+
+#message-el{
+font-style: italic;
+}
+button{
+color: #016f32;
+background-color: goldenrod;
+width: 150px;
+padding: 5px;
+font-weight: bold;
+border: none;
+border-radius: 2px;
+display: block;
+margin: 5px auto;
+right : 150px;
+text-align: center;
+
+}
